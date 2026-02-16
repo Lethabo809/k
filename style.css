@@ -32,3 +32,18 @@ p {
     text-align: center;
     margin-bottom: 40px; /* space below heading */
 }
+/* Normal state for all links */
+a {
+    color: darkblue;        /* text color */
+    text-decoration: none;  /* remove underline */
+    padding: 5px 10px;      /* space around link */
+    font-weight: bold;       /* optional: make it bold */
+}
+
+/* Hover state for links */
+a:hover {
+    color: white;                 /* text color when mouse is over */
+    background-color: darkblue;   /* background highlight */
+    border-radius: 5px;           /* rounded corners */
+}
+
