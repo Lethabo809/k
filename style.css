@@ -46,4 +46,16 @@ a:hover {
     background-color: darkblue;   /* background highlight */
     border-radius: 5px;           /* rounded corners */
 }
+.link-container a {
+    color: darkblue;            /* link color */
+    text-decoration: none;      /* remove underline */
+    padding: 5px 10px;          /* space around the link */
+    font-weight: bold;
+}
 
+.link-container a:hover {
+    color: white;
+    background-color: darkblue; /* highlight on hover */
+    border-radius: 5px;
+
+}
